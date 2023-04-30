@@ -1,18 +1,33 @@
-```Multivariate-time series analysis and prediction using incomplete data```
+\textbf{Time series and its importance}
 
-Time-series (TS) data measures the changes over time. The time column in the data structure is used to sort the data.
-TS analsis has played major role in areas like fraud detection, spam email filtering, finance, weather, healthcare, space exploration, manufactoring et al.
+1. Time-Series(TS) is a sequence of measurements on the same variable collected over time.
+1. It is a set of observations, each one being recorded at equally spaced time interval.
+1. We extrapolate a past trend to predict future such as movement of short-term interest rate, capacity demand in airline and other sectors.
 
-```Why TS is important?```
+\textbf{Multivariate-time series analysis and prediction using incomplete data}
 
-Extrapolate a past trend to predict future such as movement of short-term interest rate, capacity demand in airline and other sectors.
-We try to produce actionable results using deep learning algorithms.
+1. TS data is collected for multiple variables over the same period of time. For example, a country's unemployment, GDP and inflation data over an interval period.
+1. The TS data measures the changes over time. The time column in the data structure is used to sort the data.
+1. TS analsis has played major role in areas like fraud detection, spam email filtering, finance, weather, healthcare, space exploration, manufactoring et al.
 
-```How to predict future using TS?```
+\textbf{How to predict future using TS?}
+
 1. Simple deterministic model such as linear extrapolation
 2. Complex deep learning approaches
 
-```Why DL approach has performed not so well for univariate time series forecasting compared to naive and classical forecasting methods?```
+\textbf{TS data intervals}
+
+The interval depends on the nature of forecasting. For example, for a nation's GDP, we use yearly interval while sales data can be monthly and air-quality index being monitored on hourly basis.
+
+\textbf{Challenges with time-series analysis}
+
+1. Data is not independent.
+1. Data order is important to keep the data structure intact
+1. Order is also important as data is list of observations
+
+\textbf{Handling missing values}
+
+\textbf{Why DL approach has performed not so well for univariate time series forecasting compared to naive and classical forecasting methods?}
 
 Deep learning (DL) approaches have shown remarkable success in various fields, including computer vision, natural language processing, and speech recognition. However, when it comes to univariate time series forecasting, DL models have not always outperformed classical and naive forecasting methods.
 
@@ -30,4 +45,4 @@ Performance metric: DL models are often evaluated using mean squared error (MSE)
 
 In contrast, classical and naive forecasting methods, such as ARIMA and exponential smoothing, have been developed specifically for time series forecasting and have been shown to perform well in many cases. These methods are often simpler to implement and interpret than DL models and can be effective when working with smaller datasets. Additionally, classical and naive methods often have well-established performance metrics, such as AIC or BIC, that can be used to evaluate the overall performance of a model.
 
-Overall, DL approaches can be a powerful tool for time series forecasting, but they may not always outperform classical and naive methods, especially when working with small datasets or when interpretability is crucial. It is essential to carefully consider the specific problem at hand and the available data before deciding on an appropriate forecasting method.
+Overall, DL approaches can be a powerful tool for time series forecasting, but they may not always outperform classical and naive methods, especially when working with small datasets or when interpretability
