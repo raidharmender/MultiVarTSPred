@@ -4,3 +4,4 @@
 https://www.section.io/engineering-education/multivariate-time-series-using-auto-arima/
 https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/
 https://www.machinelearningplus.com/time-series/augmented-dickey-fuller-test/
+https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/
