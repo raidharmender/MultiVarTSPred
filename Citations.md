@@ -3,3 +3,4 @@
 1. https://www.manning.com/books/time-series-forecasting-in-python-book
 https://www.section.io/engineering-education/multivariate-time-series-using-auto-arima/
 https://www.analyticsvidhya.com/blog/2018/09/multivariate-time-series-guide-forecasting-modeling-python-codes/
+https://www.machinelearningplus.com/time-series/augmented-dickey-fuller-test/
